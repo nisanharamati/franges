@@ -1,8 +1,5 @@
-import os
 from setuptools import setup
 
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
     name = "franges",
@@ -14,7 +11,6 @@ setup(
     maintainer = "Nisan Haramati",
     url = "https://github.com/nisanharamati/franges",
     packages=['franges',],
-    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Topic :: Utilities",
