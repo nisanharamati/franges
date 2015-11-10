@@ -6,15 +6,15 @@ def read(fname):
 
 setup(
     name = "franges",
-    version = "1.0.0",
+    version = "1.0.1",
     author = "Nisan Haramati",
     author_email = "hanisan@gmail.com",
     description = ("Franges adds support for floating point and fixed precision (Decimal) range generator functions."),
     license = "LGPLv3+",
-    maintainer = "Nisan Haramati",   
+    maintainer = "Nisan Haramati",
     url = "https://github.com/nisanharamati/franges",
     packages=['franges',],
-    long_description=read('README.txt'),
+    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Topic :: Utilities",
