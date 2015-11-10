@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name = "franges",
-    version = "1.0.1",
+    version = "1.0.2",
     author = "Nisan Haramati",
     author_email = "hanisan@gmail.com",
     description = ("Franges adds support for floating point and fixed precision (Decimal) range generator functions."),
